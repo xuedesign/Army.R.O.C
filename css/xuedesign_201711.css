@@ -92,86 +92,49 @@ footer{
 /*主要內容區塊 */
 h1 a,
 h2,
-.subtitle-01,
-.subtitle-02,
-.slogan,
-#btn_play a,
-#element_triangle,
-#element_circle,
-#element_rectangle{   
+#box_vision,
+#people-man,
+#people-woman{   
     display:block;
 	position:absolute}
 h1 a,
 h2,
-.subtitle-01,
-.subtitle-02,
-.slogan,
-#btn_play a{
+#people-man,
+#people-woman{
     text-indent:100%;
     white-space: normal;
     overflow: hidden;
     font-size: 0}
 h1 a{
-	top: 25px;
-	right: 27px;
-	width: 223px;
-	height: 50px;
+	top: 18px;
+	left: 25px;
+	width: 255px;
+	height: 67px;
 	background: url(../images/pic_logo.png) no-repeat}
 h2{
-    top: 51px;
-	left: 27px;
-	width: 172px;
-	height: 459px;
+    top: -28px;
+	left: 325px;
+	width: 583px;
+	height: 185px;
 	background: url(../images/pic_title.png) no-repeat}
-.subtitle-01{
-    top: 222px;
-	left: 213px;
-	width: 151px;
-	height: 137px;
-	background: url(../images/pic_subtitle.png) no-repeat}
-.subtitle-02{
-    top: 411px;
-	left: 213px;
-	width: 181px;
-	height: 83px;
-	background: url(../images/pic_film-note.png) no-repeat}
-.slogan{
-    top: 201px;
-	right: 205px;
-    z-index: 150;
-	width: 118px;
-	height: 106px;
-	background: url(../images/pic_slogan.png) no-repeat}
-#btn_play a{
-    top: 290px;
-	right: 101px;
-    z-index: 500;
-	width: 80px;
-	height: 18px;
-	background: url(../images/btn_play-01.png) no-repeat}
-#btn_play a:hover{
-    background: url(../images/btn_play-01.png) 0 -18px no-repeat}
-#element_triangle{
-    bottom: 100px;
-	right: 680px;
-    z-index: 99;
-	width: 131px;
-	height: 87px;
-	background: url(../images/pic_triangle.png) no-repeat}
-#element_circle{
-    top: 201px;
-	right: 16px;
-    z-index: 99;
-	width: 288px;
-	height: 288px;
-	background: url(../images/pic_circle.png) no-repeat}
-#element_rectangle{
-    bottom: 51px;
-	right: 190px;
-	width: 536px;
-	height: 565px;
-	background: url(../images/pic_rectangle.png) no-repeat}
-
+#box_vision{
+    top: 287px;
+    left: 0;
+    width: 1238px;
+    height: 210px;
+    background: rgba(202,232,81,.5)}
+#people-man{
+    top: -22px;
+	left: 134px;
+	width: 202px;
+	height: 325px;
+	background: url(../images/pic_man.png) no-repeat}
+#people-woman{
+    top: 14px;
+	right: 170px;
+	width: 171px;
+	height: 290px;
+	background: url(../images/pic_woman.png) no-repeat}
 
 /*首頁選單 */		
 #box_menu{
