@@ -2,8 +2,8 @@
 *
 * @project    xuedesign studio
 * @Author     Elmo Wu <hello@xuedesign.tw>
-* @copyright  2016 xuedesign studio
-* @version    v1.1 - 201706
+* @copyright  2017 xuedesign studio
+* @version    v1.0 - 201711
 *
 *=====================================
 *   1 通用
@@ -59,35 +59,26 @@ image{border:0}
     /*position: absolute;
     top: 50%;
     left: 50%;*/
-	width: 1239px;
-    min-height: 759px;
-	background:url(../images/bg_index.png) no-repeat;
+	width: 1238px;
+    min-height: 756px;
+	background:url(../images/bg_index.jpg) no-repeat;
     /*margin: -380px 0 0 -620px;*/
 	margin: 55px auto 0 auto ;
 	-webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px}
-#box_content-right{
+#box_content{
 	display:block;
-    float: right;
 	position:relative;
-	width: 762px;
-	height: 713px;
-    background: url(../images/bg_cover.jpg) no-repeat;
-    -webkit-border-radius: 0 15px 0 0;
-    -moz-border-radius: 0 15px 0 0;
-    border-radius: 0 15px 0 0}
-#box_content-left{
-    display: block;
-    float: left;
-    position:relative}
+	width:1239px;
+	min-height:713px}
 footer{
 	clear:both;
 	display:block;
 	position:relative;
 	width:1238px;
-	height:46px;
-	background: url(../images/bg_footer.png) repeat-x;
+	height:43px;
+	background: url(../images/bg_footer.jpg) repeat-x;
 	-webkit-border-radius: 0 0 10px 10px;
     -moz-border-radius: 0 0 10px 10px;
     border-radius: 0 0 10px 10px}
@@ -227,10 +218,10 @@ h2{
 footer p{
 	text-align:center;
 	font-size:1.3rem;
-	color:#fff;
+	color:#b4cb87;
 	margin:0;
 	padding:0;
-	line-height:46px}
+	line-height:43px}
 footer .txt_mark{
 	display:block;
 	position:absolute;

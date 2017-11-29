@@ -2,15 +2,15 @@
 <html lang="zh-tw">
 <head>
 <meta charset="utf-8" lang="zh-tw">
-<meta name="keywords" content="衛生福利部, 卓越數位科技, 開始設計工作室"/>
-<meta name="Author" content="衛生福利部 Ministry of Health and Welfare" />
+<meta name="keywords" content="國防部, 卓越數位科技, 開始設計工作室"/>
+<meta name="Author" content="國防部 Ministry of National Defense" />
 <meta name="description" content="愛人與被愛，我們都還在練習">
-<meta name="author" content="Created by xuedesign studio | 開始設計工作室 | www.xuedesign.tw" />
-<title>練習。(愛) Practice Love. 未滿16歲非強制性性侵害事件親職教育宣導影片│衛生福利部</title>
+<meta name="author" content="Created by xuedesign studio | 開始設計工作室 | https://www.xuedesign.tw" />
+<title>廉政總動員*國軍廉政動畫</title>
 <link rel="shortcut icon"  href="images/favicon.ico"/>
 <link rel="icon" href="images/favicon.ico"/>
 <link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/xuedesign_201610.css"/>
+<link rel="stylesheet" href="css/xuedesign_201711.css"/>
 <link rel="stylesheet" href="css/jquery.fancybox.css"/>
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,25 +19,15 @@
 
 <body>
 
-<div id="myTag">
+<!--<div id="myTag">
     <p>作品展示DemoSite</p>
-</div>
+</div>-->
    
 <div id="wrap">
-    <div id="box_index">
-        <div id="box_content-right" class="animated fadeIn">
-            <h1><a href="http://www.mohw.gov.tw/CHT/Ministry/Index.aspx" rel="external" title="[另開視窗]衛生福利部">衛生福利部 Ministry of Health and Welfare</a></h1>
-            <p class="slogan animated fadeInLeft">
-                愛人與被愛，我們都還在練習</p> 
-            <div id="btn_play">
-                <a class="fancybox-media animated fadeInRight" href="https://youtu.be/Xz5btZB-Zlw">[影片播放] 練習。(愛) Practice Love</a></div>
-            <div id="element_triangle"></div>
-            <div id="element_circle"></div><!--class="animated mybreathe"-->
-            <div id="element_rectangle"></div>    
-        </div>
-        
-        <div id="box_content-left">
-            <h2>練習。(愛)</h2>
+    <div id="box_index">        
+        <div id="box_content">
+           <h1><a href="https://www.mnd.gov.tw/" rel="external" title="[另開視窗]國防部">國防部 Ministry of National Defense</a></h1>
+            <!--<h2>練習。(愛)</h2>
             <h3><span class="subtitle-01">Practice Love</span>
                 <span class="subtitle-02">未滿16歲非強制性性侵害事件親職教育宣導影片</span></h3>    
             <nav id="box_menu" class="animated flipInX">
@@ -49,14 +39,14 @@
                     <li><a href="law.html" class="nav_04">法律責任</a></li>
                     <li><a href="links.html" class="nav_06">諮詢聯絡</a></li>
                 </ul>
-            </nav>
-        </div>    
+            </nav>-->
+        </div>
             
         <footer>
-            <p>衛生福利部 版權所有 &copy; 2016 Ministry of Health and Welfare All Contents Copyright</p>
+            <p>國防部 版權所有 &copy; 2017 Ministry of National Defense All Contents Copyright</p>
             <span class="txt_mark">廣告</span>
         </footer>
-        <p class="hidden">網站設計：開始設計工作室 xuedesign studio, http://www.xuedesign.tw/</p>        
+        <p class="hidden">網站設計：開始設計工作室 xuedesign studio, https://www.xuedesign.tw/</p>        
     </div>
         
 </div> 
@@ -69,8 +59,19 @@ $(document).ready(function(){$(".fancybox").fancybox();$(".fancybox-effects-a").
 closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}});$(".fancybox-buttons").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",closeBtn:!1,helpers:{title:{type:"inside"},buttons:{}},afterLoad:function(){this.title="Image "+(this.index+1)+" of "+this.group.length+(this.title?" - "+this.title:"")}});$(".fancybox-thumbs").fancybox({prevEffect:"none",nextEffect:"none",closeBtn:!1,arrows:!1,nextClick:!0,helpers:{thumbs:{width:50,height:50}}});$(".fancybox-media").attr("rel",
 "media-gallery").fancybox({openEffect:"none",closeEffect:"none",prevEffect:"none",nextEffect:"none",arrows:!1,helpers:{media:{},buttons:{}}});$("#fancybox-manual-a").click(function(){$.fancybox.open("1_b.jpg")});$("#fancybox-manual-b").click(function(){$.fancybox.open({href:"iframe.html",type:"iframe",padding:5})});$("#fancybox-manual-c").click(function(){$.fancybox.open([{href:"1_b.jpg",title:"My title"},{href:"2_b.jpg",title:"2nd title"},{href:"3_b.jpg"}],{helpers:{thumbs:{width:75,height:50}}})})});    
 </script>
-<script src="script/jquery.lazyload.js"></script>
-<script src="script/web_set.js"></script>
+<script>
+    function externalLinks() { 
+     if (!document.getElementsByTagName) return; 
+     var anchors = document.getElementsByTagName("a"); 
+     for (var i=0; i<anchors.length; i++) { 
+       var anchor = anchors[i]; 
+       if (anchor.getAttribute("href") && 
+           anchor.getAttribute("rel") == "external") 
+         anchor.target = "_blank"; 
+     } 
+    } 
+    window.onload = externalLinks;	  
+</script>
 </body>
 </html>
 
@@ -99,5 +100,5 @@ closeEffect:"elastic",closeSpeed:150,closeClick:!0,helpers:{overlay:null}});$(".
    ##############               ##############
           
           【開始設計工作室 xuedesign studio】
-                www.xuedesign.tw 
+             https://www.xuedesign.tw 
 -->
