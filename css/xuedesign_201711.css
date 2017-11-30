@@ -257,9 +257,9 @@ footer .txt_mark{
     animation-name: fadeIn;
     -webkit-animation-delay: 800ms;
 	animation-delay: 800ms;	
-    -webkit-animation-duration: 2800ms;
-    -moz-animation-duration: 2800ms;
-	animation-duration: 2800ms}
+    -webkit-animation-duration: 1500ms;
+    -moz-animation-duration: 1500ms;
+	animation-duration: 1500ms}
 
 @-webkit-keyframes fadeInRight {
   from {
@@ -286,11 +286,11 @@ footer .txt_mark{
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
-  -webkit-animation-delay: 3000ms;
-  animation-delay: 3000ms;	
-  -webkit-animation-duration: 1500ms;
-  -moz-animation-duration: 1500ms;
-  animation-duration: 1500ms
+  -webkit-animation-delay: 800ms;
+  animation-delay: 800ms;	
+  -webkit-animation-duration: 900ms;
+  -moz-animation-duration: 900ms;
+  animation-duration: 900ms
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -318,11 +318,11 @@ footer .txt_mark{
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
-  -webkit-animation-delay: 3000ms;
-  animation-delay: 3000ms;	
-  -webkit-animation-duration: 1500ms;
-  -moz-animation-duration: 1500ms;
-  animation-duration: 1500ms}
+  -webkit-animation-delay: 800ms;
+  animation-delay: 800ms;	
+  -webkit-animation-duration: 900ms;
+  -moz-animation-duration: 900ms;
+  animation-duration: 900ms}
 
 @-webkit-keyframes flipInX {
   from {
@@ -395,58 +395,93 @@ footer .txt_mark{
   backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
   animation-name: flipInX;
-  -webkit-animation-delay: 4000ms;
-  animation-delay: 4000ms;	
-  -webkit-animation-duration: 2500ms;
-  -moz-animation-duration: 2500ms;
-  animation-duration: 2500ms
+  -webkit-animation-delay: 800ms;
+  animation-delay: 800ms;	
+  -webkit-animation-duration: 1800ms;
+  -moz-animation-duration: 1800ms;
+  animation-duration: 1800ms
 }
 
-@-webkit-keyframes pulse {
+@keyframes fadeInUp {
   from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
-
-  10% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
   }
 
   to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
+    opacity: 1;
+    transform: none;
   }
 }
 
-@keyframes pulse {
-  from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-  }
+.Up-01,
+.Up-02,
+.Up-03,
+.Up-04,
+.Up-05{
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1000ms;
+  -moz-animation-duration: 1000ms;
+  animation-duration: 1000ms}
+.Up-01 {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s}
+.Up-02 {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s}
+.Up-03 {
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s}
+.Up-04 {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s}
+.Up-05 {
+  -webkit-animation-delay: 4.5s;
+  animation-delay: 4.5s}
 
-  10% {
-    -webkit-transform: scale3d(1.05, 1.05, 1.05);
-    transform: scale3d(1.05, 1.05, 1.05);
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -1200px, 0);
   }
 
   to {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
+    opacity: 1;
+    transform: none;
   }
 }
 
-.pulse {
-  -webkit-animation-name: pulse;
-  animation-name: pulse;
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 7500ms;
+  -moz-animation-duration: 7500ms;
+  animation-duration: 7500ms;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s
 }
 
-.mybreathe{
-   -webkit-animation-name: pulse;
-   animation-name: pulse;
-    -webkit-animation-duration: 2000ms;
-    -moz-animation-duration: 2000ms;
-	animation-duration: 2000ms;
+@keyframes float {
+  0% {
+    transform: translate3d(0, -8px, 0);
+  }
+
+  50% {
+    transform: translate3d(0, 0, 0);
+  }
+    
+   100% {
+    transform: translate3d(0, -8px, 0);
+  }
+}
+
+.myfloat{
+   -webkit-animation-name: float;
+   animation-name: float;
+    -webkit-animation-duration: 3000ms;
+    -moz-animation-duration: 3000ms;
+	animation-duration: 3000ms;
    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
